@@ -4,7 +4,7 @@
 
 [![NPM][npm-icon] ][npm-url]
 
-<!-- [![Build status][ci-image] ][ci-url] -->
+[![Build status][ci-image] ][ci-url]
 [![semantic-release][semantic-image] ][semantic-url]
 
 ## Install
@@ -79,8 +79,8 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 [npm-icon]: https://nodei.co/npm/get-windows-proxy.svg?downloads=true
 [npm-url]: https://npmjs.org/package/get-windows-proxy
-[ci-image]: https://travis-ci.org/cypress-io/get-windows-proxy.svg?branch=master
-[ci-url]: https://travis-ci.org/cypress-io/get-windows-proxy
+[ci-image]: https://img.shields.io/circleci/project/github/cypress-io/get-windows-proxy/develop.svg
+[ci-url]: https://circleci.com/gh/cypress-io/workflows/get-windows-proxy/tree/develop
 [semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
 [semantic-url]: https://github.com/semantic-release/semantic-release
 [registry-js]: https://github.com/desktop/registry-js/
