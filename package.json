@@ -24,9 +24,6 @@
       "post-merge": []
     }
   },
-  "engines": {
-    "node": ">=6"
-  },
   "files": [
     "src/*.js",
     "!src/*-spec.js"
