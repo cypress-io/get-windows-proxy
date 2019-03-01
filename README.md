@@ -4,7 +4,7 @@
 
 [![NPM][npm-icon] ][npm-url]
 
-[![Build status][ci-image] ][ci-url]
+<!-- [![Build status][ci-image] ][ci-url] -->
 [![semantic-release][semantic-image] ][semantic-url]
 
 ## Install
