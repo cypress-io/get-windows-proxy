@@ -16,7 +16,6 @@
       ],
       "pre-push": [
         "npm run unused-deps",
-        "npm run secure",
         "npm run license",
         "npm run ban -- --all",
         "npm run size"
@@ -57,7 +56,6 @@
     "prelint": "npm run pretty",
     "pretest": "npm run lint",
     "pretty": "prettier-eslint --write 'src/*.js'",
-    "secure": "nsp check",
     "size": "t=\"$(npm pack .)\"; wc -c \"${t}\"; tar tvf \"${t}\"; rm \"${t}\";",
     "test": "npm run unit",
     "unit": "mocha src/*-spec.js",
@@ -79,7 +77,6 @@
     "github-post-release": "1.13.1",
     "license-checker": "25.0.1",
     "mocha": "6.0.2",
-    "nsp": "3.2.1",
     "pre-git": "3.17.1",
     "prettier-eslint-cli": "4.7.1",
     "semantic-action": "1.1.6",
