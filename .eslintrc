@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "plugin:cypress-dev/general",
+    "plugin:cypress-dev/tests"
+  ],
+  "rules": {
+    "comma-dangle": "off",
+    "no-console": "off"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}
