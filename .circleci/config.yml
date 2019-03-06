@@ -40,7 +40,7 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
       - run: yarn install
-      - run: npx semantic-release
+      - run: ./node_modules/.bin/semantic-release
 
 workflows:
   version: 2
