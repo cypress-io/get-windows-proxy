@@ -2,10 +2,11 @@
 
 > Node.js module that finds a user&#39;s system proxy settings from their Windows registry settings.
 
-[![NPM][npm-icon] ][npm-url]
+[![NPM][npm-icon]][npm-url]
 
-[![Build status][ci-image] ][ci-url]
-[![semantic-release][semantic-image] ][semantic-url]
+[![Build status][ci-image]][ci-url]
+
+[![semantic-release][semantic-image]][semantic-url]
 
 ## Install
 

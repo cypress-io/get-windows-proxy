@@ -3,7 +3,7 @@ const registry = require('registry-js')
 
 const findByName = (values, name) => {
   return values.find((value) => {
-    return value.name === name
+    return value && value.name === name
   })
 }
 
