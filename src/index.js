@@ -1,5 +1,5 @@
 const debug = require('debug')('get-windows-proxy')
-const registry = require('registry-js')
+const registry = require('@cypress/registry-js')
 
 const findByName = (values, name) => {
   return values.find((value) => {

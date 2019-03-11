@@ -4,6 +4,9 @@
   "version": "0.0.0-development",
   "author": "Zach Bloomquist <zach@cypress.io>",
   "bugs": "https://github.com/cypress-io/get-windows-proxy/issues",
+  "os": [
+    "win32"
+  ],
   "config": {
     "pre-git": {
       "commit-msg": "simple",
@@ -81,6 +84,6 @@
   },
   "dependencies": {
     "debug": "4.1.1",
-    "registry-js": "1.3.3"
+    "@cypress/registry-js": "1.3.2-patch12"
   }
 }
