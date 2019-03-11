@@ -13,13 +13,13 @@
 Requires [Node](https://nodejs.org/en/) version 6 or above.
 
 ```sh
-npm install --save get-windows-proxy
+npm install --save @cypress/get-windows-proxy
 ```
 
 ## Usage
 
 ```js
-const getWindowsProxy = require('get-windows-proxy')
+const getWindowsProxy = require('@cypress/get-windows-proxy')
 
 const proxy = getWindowsProxy()
 
@@ -78,8 +78,8 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-[npm-icon]: https://nodei.co/npm/get-windows-proxy.svg?downloads=true
-[npm-url]: https://npmjs.org/package/get-windows-proxy
+[npm-icon]: https://nodei.co/npm/@cypress/get-windows-proxy.svg?downloads=true
+[npm-url]: https://npmjs.org/package/@cypress/get-windows-proxy
 [ci-image]: https://img.shields.io/circleci/project/github/cypress-io/get-windows-proxy/develop.svg
 [ci-url]: https://circleci.com/gh/cypress-io/workflows/get-windows-proxy/tree/develop
 [semantic-image]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg

@@ -1,5 +1,5 @@
 {
-  "name": "get-windows-proxy",
+  "name": "@cypress/get-windows-proxy",
   "description": "Node.js module that finds a user's system proxy settings depending on their platform.",
   "version": "0.0.0-development",
   "author": "Zach Bloomquist <zach@cypress.io>",
