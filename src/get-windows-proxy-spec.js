@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const registry = require('registry-js')
+const registry = require('@cypress/registry-js')
 const sinon = require('sinon')
 
 /* eslint-env mocha */
