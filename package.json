@@ -84,6 +84,6 @@
   },
   "dependencies": {
     "debug": "4.1.1",
-    "@cypress/registry-js": "1.3.2-patch14"
+    "@cypress/registry-js": "1.3.2-patch15"
   }
 }
