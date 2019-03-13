@@ -1,6 +1,14 @@
 const debug = require('debug')('get-windows-proxy')
 const os = require('os')
-const registry = require('@cypress/registry-js')
+let registry
+
+try {
+  registry = require('@cypress/registry-js')
+} catch (err) {
+  debug(
+    'Could not load native extension for Windows registry access. The most likely reason is that your Node version has changed since installing. Try re-installing get-windows-proxy.'
+  )
+}
 
 const findByName = (values, name) => {
   return values.find((value) => {
