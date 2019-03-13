@@ -1,4 +1,5 @@
 const { expect } = require('chai')
+const os = require('os')
 const registry = require('@cypress/registry-js')
 const sinon = require('sinon')
 
@@ -6,6 +7,10 @@ const sinon = require('sinon')
 const getWindowsProxy = require('.')
 
 context('getWindowsProxy', () => {
+  beforeEach(() => {
+    sinon.stub(os, 'platform').returns('win32')
+  })
+
   afterEach(() => {
     sinon.restore()
   })
