@@ -80,7 +80,9 @@
     "sinon": "7.2.5"
   },
   "dependencies": {
-    "@cypress/registry-js": "1.3.2-patch29",
     "debug": "4.1.1"
+  },
+  "optionalDependencies": {
+    "@cypress/registry-js": "1.3.3-patch1"
   }
 }

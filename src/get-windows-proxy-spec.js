@@ -1,7 +1,7 @@
 const { expect } = require('chai')
 const os = require('os')
-const registry = require('@cypress/registry-js')
 const sinon = require('sinon')
+const registry = require('./registry')
 
 /* eslint-env mocha */
 const getWindowsProxy = require('.')
