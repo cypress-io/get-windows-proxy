@@ -16,7 +16,9 @@ try {
     )
 
     registry = {
-      enumerateValues () {},
+      enumerateValues () {
+        return []
+      },
       HKEY: {
         HKEY_CURRENT_USER: null
       }
