@@ -1,3 +1,5 @@
+'use strict'
+
 const debug = require('debug')('get-windows-proxy')
 const os = require('os')
 const registry = require('./registry')

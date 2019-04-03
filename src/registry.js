@@ -1,3 +1,5 @@
+'use strict'
+
 const os = require('os')
 const debug = require('debug')('get-windows-proxy')
 
