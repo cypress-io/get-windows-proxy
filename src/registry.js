@@ -6,6 +6,7 @@ const debug = require('debug')('get-windows-proxy')
 let registry
 
 try {
+  // @ts-ignore
   registry = require('@cypress/registry-js')
 } catch (err) {
   if (os.platform() === 'win32') {
