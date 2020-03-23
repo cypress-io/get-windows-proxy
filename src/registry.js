@@ -7,7 +7,7 @@ let registry
 
 try {
   // @ts-ignore
-  registry = require('@cypress/registry-js')
+  registry = require('registry-js')
 } catch (err) {
   if (os.platform() === 'win32') {
     debug(
@@ -15,7 +15,7 @@ try {
     )
   } else {
     debug(
-      'Skipping loading @cypress/registry-js because your platform is not win32.'
+      'Skipping loading registry-js because your platform is not win32.'
     )
 
     registry = {
