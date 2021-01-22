@@ -14,9 +14,7 @@ try {
       'Could not load native extension for Windows registry access. The most likely reason is that your Node version has changed since installing. Try re-installing get-windows-proxy.'
     )
   } else {
-    debug(
-      'Skipping loading registry-js because your platform is not win32.'
-    )
+    debug('Skipping loading registry-js because your platform is not win32.')
 
     registry = {
       enumerateValues () {
@@ -29,4 +27,4 @@ try {
   }
 }
 
-module.exports = registry
+module.exports = { ...registry }
