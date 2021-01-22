@@ -63,9 +63,9 @@
     "repositoryUrl": "https://github.com/cypress-io/get-windows-proxy.git"
   },
   "devDependencies": {
-    "ban-sensitive-files": "1.9.2",
+    "ban-sensitive-files": "1.9.14",
     "chai": "4.2.0",
-    "dependency-check": "3.3.0",
+    "dependency-check": "3.4.1",
     "deps-ok": "1.4.1",
     "eslint": "5.14.1",
     "eslint-plugin-cypress-dev": "2.0.0",
