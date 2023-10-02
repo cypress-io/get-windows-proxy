@@ -80,7 +80,7 @@
     "sinon": "7.2.5"
   },
   "dependencies": {
-    "debug": "4.1.1"
+    "debug": "4.3.1"
   },
   "optionalDependencies": {
     "registry-js": "1.13.0"
