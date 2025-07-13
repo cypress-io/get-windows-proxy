@@ -6,7 +6,6 @@
   "bugs": "https://github.com/cypress-io/get-windows-proxy/issues",
   "config": {
     "pre-git": {
-      "commit-msg": "simple",
       "pre-commit": [
         "npm prune",
         "npm run deps",
@@ -59,7 +58,6 @@
     "unused-deps": "dependency-check --unused --no-dev ."
   },
   "release": {
-    "analyzeCommits": "simple-commit-message",
     "repositoryUrl": "https://github.com/cypress-io/get-windows-proxy.git"
   },
   "devDependencies": {
@@ -76,7 +74,6 @@
     "pre-git": "3.17.1",
     "prettier-eslint-cli": "4.7.1",
     "semantic-release": "24.2.6",
-    "simple-commit-message": "4.0.3",
     "sinon": "7.2.5"
   },
   "dependencies": {
