@@ -16,9 +16,7 @@ context('getWindowsProxy', () => {
   })
 
   it('returns Windows proxy info from registry', () => {
-    sinon
-    .stub(registry, 'enumerateValues')
-    .returns([
+    sinon.stub(registry, 'enumerateValues').returns([
       { name: 'ProxyEnable', data: 1 },
       { name: 'ProxyServer', data: 'proxy.foobaz:1234' },
       { name: 'ProxyOverride', data: 'a.com;b.com;<local>' }
@@ -31,9 +29,7 @@ context('getWindowsProxy', () => {
   })
 
   it('returns undefined if proxy is disabled', () => {
-    sinon
-    .stub(registry, 'enumerateValues')
-    .returns([
+    sinon.stub(registry, 'enumerateValues').returns([
       { name: 'ProxyEnable', data: 0 },
       { name: 'ProxyServer', data: 'proxy.foobaz:1234' },
       { name: 'ProxyOverride', data: 'a.com;b.com;<local>' }

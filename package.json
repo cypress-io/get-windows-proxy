@@ -38,7 +38,7 @@
   "main": "src/",
   "private": false,
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -75,14 +75,14 @@
     "mocha": "6.0.2",
     "pre-git": "3.17.1",
     "prettier-eslint-cli": "4.7.1",
-    "semantic-release": "15.13.3",
+    "semantic-release": "24.2.6",
     "simple-commit-message": "4.0.3",
     "sinon": "7.2.5"
   },
   "dependencies": {
-    "debug": "4.1.1"
+    "debug": "4.4.1"
   },
   "optionalDependencies": {
-    "registry-js": "1.8.0"
+    "registry-js": "1.16.1"
   }
 }
