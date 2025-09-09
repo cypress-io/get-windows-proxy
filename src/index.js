@@ -19,7 +19,7 @@ module.exports = function getWindowsProxy () {
 
   const values = registry.enumerateValues(
     registry.HKEY.HKEY_CURRENT_USER,
-    'Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings'
+    'Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings',
   )
 
   const proxyEnabled = findByName(values, 'ProxyEnable')
@@ -53,7 +53,7 @@ module.exports = function getWindowsProxy () {
   debug(
     'found HTTP proxy %s and "no proxy" %s from registry key',
     httpProxy,
-    noProxy
+    noProxy,
   )
 
   return { httpProxy, noProxy }
