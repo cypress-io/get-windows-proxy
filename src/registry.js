@@ -11,7 +11,7 @@ try {
 } catch (err) {
   if (os.platform() === 'win32') {
     debug(
-      'Could not load native extension for Windows registry access. The most likely reason is that your Node version has changed since installing. Try re-installing get-windows-proxy.'
+      'Could not load native extension for Windows registry access. The most likely reason is that your Node version has changed since installing. Try re-installing get-windows-proxy.',
     )
   } else {
     debug('Skipping loading registry-js because your platform is not win32.')
@@ -21,8 +21,8 @@ try {
         return []
       },
       HKEY: {
-        HKEY_CURRENT_USER: null
-      }
+        HKEY_CURRENT_USER: null,
+      },
     }
   }
 }
