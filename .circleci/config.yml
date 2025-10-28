@@ -46,5 +46,6 @@ workflows:
     jobs:
       - build
       - release:
+          context: org-npm-credentials
           requires:
             - build
